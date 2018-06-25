@@ -63,7 +63,7 @@ describe('index.js', function () {
           name: 'Bobby',
           hometown: 'Tampa Bay' }
       ];
-
+      console.log("matchName", matchName)
       expect(matchName(drivers, 'Bobby')).to.eql([
         {
           name: 'Bobby',
